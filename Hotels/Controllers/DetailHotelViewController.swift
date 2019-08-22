@@ -33,7 +33,7 @@ class DetailHotelViewController: UIViewController {
 
     // MARK: - Custom methods
     
-    func fetchDataHotel() {
+    private func fetchDataHotel() {
         
         let hotelUrl = hotel?.id
         
@@ -66,7 +66,7 @@ class DetailHotelViewController: UIViewController {
         }.resume()
     }
     
-    func fetchImage(url: String) {
+   private func fetchImage(url: String) {
         
         guard let urlImage = URL(string: "\(baseUrlImage)"+"\(url)") else {
             print("URL is incorrect")
@@ -75,16 +75,14 @@ class DetailHotelViewController: UIViewController {
         URLSession.shared.dataTask(with: urlImage) { (data, _, _)  in
             if let data = data, let image = UIImage(data: data) {
                 
-                do {
                     DispatchQueue.main.async {
                         self.imageHotel.image = image.crop(rect: CGRect(x: 1, y: 1, width: image.size.width - 2, height: image.size.height - 2))
                     }
                 }
-            }
     }.resume()
 }
 
-    func setupUI() {
+    private func setupUI() {
         
         switch hotel!.stars {
         case 1:

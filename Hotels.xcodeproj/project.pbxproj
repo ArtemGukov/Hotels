@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC4768EA230ACC69009D2F08 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4768E9230ACC69009D2F08 /* ImageExtension.swift */; };
+		ACA15477230E7E8800219BDC /* HotelsTableViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA15476230E7E8800219BDC /* HotelsTableViewController+Extension.swift */; };
 		ACB2557C2309E7DF00957A00 /* DetailHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2557B2309E7DF00957A00 /* DetailHotelViewController.swift */; };
 		ACEAC04E230967AE003AFE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAC04D230967AE003AFE22 /* AppDelegate.swift */; };
 		ACEAC053230967AF003AFE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEAC051230967AF003AFE22 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		AC4768E9230ACC69009D2F08 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		ACA15476230E7E8800219BDC /* HotelsTableViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HotelsTableViewController+Extension.swift"; sourceTree = "<group>"; };
 		ACB2557B2309E7DF00957A00 /* DetailHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHotelViewController.swift; sourceTree = "<group>"; };
 		ACEAC04A230967AE003AFE22 /* Hotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEAC04D230967AE003AFE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				AC4768E9230ACC69009D2F08 /* ImageExtension.swift */,
+				ACA15476230E7E8800219BDC /* HotelsTableViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				AC4768EA230ACC69009D2F08 /* ImageExtension.swift in Sources */,
 				ACEAC04E230967AE003AFE22 /* AppDelegate.swift in Sources */,
 				ACB2557C2309E7DF00957A00 /* DetailHotelViewController.swift in Sources */,
+				ACA15477230E7E8800219BDC /* HotelsTableViewController+Extension.swift in Sources */,
 				ACEAC06423098288003AFE22 /* HotelsTableViewCell.swift in Sources */,
 				ACEAC06223096DD2003AFE22 /* HotelsTableViewController.swift in Sources */,
 			);
